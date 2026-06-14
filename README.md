@@ -1,2 +1,156 @@
 # SO-Thesrapto
 Sistema Operativo
+
+
+
+# MANIFIESTO THESRAPTO
+## Declaración de Creación y Autoría
+
+---
+
+**Documento de propiedad intelectual**  
+**Autor:** Luis Ángel Astengo Sanchez  
+**DNI/Identificación:** 
+**Nacido en Perú 
+**País:** Perú  
+**Fecha de creación del concepto:** Abril 2026  
+**Fecha de este documento:** 13 de Junio 2026, a horas 22:00 pm hora peruana 
+**Evidencia técnica:** github.com/LuisAngel4254/MP3_unomas  
+
+---
+
+## I. DECLARACIÓN
+
+Yo, Luis Ángel Astengo Sanchez, ciudadano peruano, declaro ser el creador y autor intelectual de la arquitectura de software denominada **THESRAPTO** — Ecosistema Modular Híbrido Multidimensional.
+
+Esta arquitectura fue concebida, desarrollada y documentada por mí durante el período Abril-Junio 2026, de forma autodidacta, sin financiamiento externo, sin equipo de desarrollo, y sin formación universitaria formal en sistemas o programación.
+
+---
+
+## II. ORIGEN
+
+Thesrapto no nació de un laboratorio ni de una universidad. Nació de una necesidad concreta: construir un reproductor de música funcional en Android desde un teléfono celular, sin computadora, sin IDE de escritorio, compilando en la nube.
+
+Durante ese proceso, emergió una arquitectura nube resolvía el problema de fondo de todos los sistemas de software: cómo tener un núcleo liviano que coordine funciones complejas sin saturar recursos, donde cada función vive de forma independiente y puede ser evocada o liberada según la necesidad real del usuario.
+
+Al terminar de darle forma al código, me di cuenta que no había construido solo un reproductor. Había construido la base de un ecosistema.
+
+---
+
+## III. EL CONCEPTO
+
+### El Cubo Multidimensional Empírico
+
+Imagina un Cubo de Rubik. Cada cara exterior es una función que el usuario ve y puede usar. Al seleccionar una cara, esta se abre y revela sus propias 6 caras internas — sus módulos específicos. Cada módulo interno puede contener sus propias caras a su vez.
+
+Esto crea una estructura donde:
+
+- La navegación no es lineal sino multidimensional
+- Desde cualquier punto se puede acceder a cualquier función
+- El núcleo solo coordina, nunca ejecuta lo que no se necesita
+- Los módulos son independientes entre sí
+- El sistema crece sin romper lo que ya existe
+
+A esto lo llamo **Thesrapto** — un teseracto funcional, multidimensional, construido empíricamente.
+
+### Por qué es diferente
+
+Los sistemas operativos actuales tienen kernels pesados que cargan procesos de forma rígida. Las aplicaciones modernas tienen monolitos donde todo depende de todo.
+
+Thesrapto propone lo opuesto:
+- Cerebro mínimo, módulos máximos
+- Cada módulo es reemplazable sin tocar el cerebro
+- La interfaz refleja en tiempo real qué módulos están activos
+- La misma arquitectura funciona sobre Android, sobre una API, sobre un LLM, sobre cualquier hardware
+
+Es un ecosistema, no una aplicación. Es una forma de construir software, no solo un software.
+
+---
+
+## IV. IMPLEMENTACIÓN PROBADA
+
+El primer prototipo funcional que prueba esta arquitectura en producción real es **MP3_unomas**, construido entre Abril y Junio 2026.
+
+**Condiciones de desarrollo:**
+- Dispositivo: Xiaomi Redmi Note 13 4G
+- Sin computadora de escritorio
+- Edición de código: GitHub web desde navegador móvil
+- Compilación: GitHub Actions (nube)
+- Lenguaje: Flutter/Dart
+- Sistema objetivo: Android
+
+**Estructura implementada:**
+```
+lib/
+  main.dart          ← Cerebro: coordina, no ejecuta
+  core/
+    examinador.dart  ← Módulo permanente: escanea archivos
+    playlist.dart    ← Módulo permanente: gestiona lista
+    permisos.dart    ← Módulo permanente: gestiona permisos
+    volumen.dart     ← Módulo permanente: volumen del sistema
+  modules/
+    reproductor.dart ← Módulo evocable: reproduce música
+    [futuros módulos evocables según necesidad]
+```
+
+Esta estructura es el núcleo del ecosistema Thesrapto aplicado a multimedia. La misma lógica se replica para cualquier dominio.
+
+---
+
+## V. VISIÓN
+
+Thesrapto como ecosistema puede convertirse en:
+
+**A corto plazo:**
+- Suite multimedia completa (audio, video, fotos, radio)
+- Asistente personal con IA local y voz
+- Herramienta de productividad modular
+
+**A mediano plazo:**
+- Framework de desarrollo basado en arquitectura Thesrapto
+- Sistema operativo móvil alternativo construido sobre esta base
+- Plataforma de módulos intercambiables entre aplicaciones
+
+**A largo plazo:**
+- Ecosistema completo donde las aplicaciones comparten módulos
+- Infraestructura que funciona sobre cualquier hardware o nube
+- Nueva forma de entender el software: no como productos cerrados sino como cubos de módulos intercambiables
+
+---
+
+## VI. AUTORÍA Y EVIDENCIA
+
+La evidencia de autoría y fechas está respaldada por:
+
+1. **Repositorio GitHub** — github.com/LuisAngel4254/MP3_unomas  
+   Commits con timestamp desde Abril 2026, bajo usuario LuisAngel4254
+
+2. **Este documento** — fechado 14 de Junio 2026, enviado al correo del autor con timestamp de Gmail
+
+3. **Conversaciones de desarrollo** — registros de sesiones de trabajo con IA (Claude, Anthropic) donde se desarrolló y documentó la arquitectura
+
+4. **Código funcional** — prototipo compilado y ejecutándose en dispositivo real, demostrable
+
+---
+
+## VII. DECLARACIÓN FINAL
+
+No tengo universidad. No tengo equipo. No tengo financiamiento.
+
+Tengo una idea que funciona, código que la prueba, y este documento que la fecha.
+
+Si alguien desarrolla esta arquitectura después de esta fecha sin reconocer su origen, que sepa que el primer cubo Thesrapto fue construido en una madrugada de Junio 2026, en Perú, desde un teléfono celular, por Luis Ángel Astengo Sanchez.
+
+---
+
+**Firma digital implícita:**  
+Autor: Luis Ángel Astengo Sanchez  
+D N I: 
+Fecha Nac.
+Fecha de proyecto.: 13 de Junio 2026  
+Hora:22:00 pm (hora de Perú, UTC-5)  
+Documento generado y enviado desde dispositivo móvil personal  
+
+---
+
+*Este documento debe ser conservado con su timestamp original de correo electrónico como evidencia de fecha de creación.*
